@@ -107,7 +107,7 @@ div>p {
     align-items: center;
     margin-left: 2rem;
     border-radius: 2rem;
-    transition: ease-in, background-color 1s;
+    transition: ease, background-color 1s;
 }
 
 .button_2>p {
@@ -120,7 +120,7 @@ div>p {
     align-items: center;
     margin-left: 2rem;
     border-radius: 2rem;
-    transition: ease-in, background-color 1s;
+    transition: ease, background-color 1s;
 }
 
 .button_3>p {
@@ -133,7 +133,7 @@ div>p {
     align-items: center;
     margin-left: 2rem;
     border-radius: 2rem;
-    transition: ease-in, background-color 1s;
+    transition: ease, background-color 1s;
 }
 
 .button_1>p:hover {
@@ -155,23 +155,4 @@ div>p {
     color: hsl(0, 0%, 95%);
     border: solid 0.2rem white;
     cursor: pointer;
-}
-
-@media only screen and (min-width: 768px) {
-    .flex_container {
-        width: 100%;
-        float: left;
-    }
-    .column_1 {
-        width: 25%;
-        float: left;
-    }
-    .column_2 {
-        width: 25%;
-        float: left;
-    }
-    .column_3 {
-        width: 25%;
-        float: left;
-    }
 }
