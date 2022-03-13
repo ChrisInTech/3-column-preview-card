@@ -12,6 +12,8 @@ body {
     background-color: hsl(0, 0%, 95%);
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 p {
@@ -20,7 +22,6 @@ p {
 
 .flex_container {
     width: 70rem;
-    height: 75rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -155,4 +156,49 @@ div>p {
     color: hsl(0, 0%, 95%);
     border: solid 0.2rem white;
     cursor: pointer;
+}
+
+
+/* Small */
+
+@media (min-width: 48rem) {
+    .flex_container {
+        width: 46rem;
+    }
+}
+
+
+/* Medium */
+
+@media (min-width: 62rem) {
+    .flex_container {
+        width: 60rem;
+    }
+}
+
+
+/* Large */
+
+@media (min-width: 75rem) {
+    .flex_container {
+        width: 73rem;
+    }
+}
+
+@media (max-width: 47rem) {
+    body {
+        height: 250vh;
+    }
+}
+
+@media (max-width:47rem) {
+    .column_1 {
+        border-radius: 1rem 1rem 0 0;
+    }
+}
+
+@media (max-width:47rem) {
+    .column_3 {
+        border-radius: 0 0 1rem 1rem;
+    }
 }
